@@ -1,0 +1,6 @@
+"""t=("Siva",10,97.5,True)
+print(t[3])"""
+
+t=("siva",25,"marks",True,45)
+print(t[1:4])
+print(type(t))
