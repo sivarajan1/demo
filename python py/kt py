@@ -1,0 +1,14 @@
+"""l=[s for s in range(1,11) if s%2==1]
+print(l)"""
+
+a=[("siva",23),("akhil",25),("kamal",23)]
+a.sort()
+for person in a:
+ print("age:{person[1]},name:{person[0]}")
+ print(a)
+
+"""a=[("siva",23),("akhil",25),("kamal",23)]
+b=sorted(a,key=lambda x:x[1])
+print("sorted list")
+for person in b:
+    print(f"name:{person[0]},age:{person[1]}")"""
