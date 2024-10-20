@@ -1,0 +1,56 @@
+#Write a program to create a set.
+
+"""s={1,2,3,4,5,"siva",95.7,True}
+print(s)"""
+
+#Write a Python program to add member to a set.
+
+"""s=set()
+l=[1,2,3,4,5]
+s.update(l)
+print(s)
+s.add(6)
+print(s)
+
+"""
+
+#Write a Python program to remove item from a given set.
+
+"""s={1,2,3,4,5,6,7,8,9}
+s.discard(1)
+print(s)"""
+
+#Write a python program to create a intersection of set ?
+
+"""s1={1,2,3,4,5,6}
+s2={7,8,1,2,3,4,5,9}
+print(s1.intersection(s2))
+"""
+
+#Write a python program to create a union of set ?
+"""s1={1,2,3,4,5,6,7,8,9}
+s2={10,11,12,13,14,15,16}
+print(s1.union(s2))"""
+
+#Write a python program to create a symmetric defferance ?
+
+"""s1={1,2,3,4,5,6}
+s2={7,8,9,10,11,4,5}
+print(s1.symmetric_difference(s2))"""
+
+#write a python program to find max and min values in a set?
+
+"""s={11,2,3,76,98,5}
+max_value, min_value = find_max_min(s)
+print(s)
+print(max_value)
+print(min_value)"""
+
+#Check if two sets have any elements in common. If yes, display the common elements?
+
+"""s1={1,2,3,4,5,6}
+s2={7,8,3,4,5,9}
+print(s1.intersection(s2))
+"""
+
+

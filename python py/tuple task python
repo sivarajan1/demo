@@ -1,0 +1,38 @@
+#How do you create a empty tuple on python ?
+
+"""t=()
+print(type(t))"""
+
+#Write a python program to unpack a tuple into several variables ?
+
+"""marks=(36,40,59,64)
+a,b,c,d=marks
+print(a)
+print(b)"""
+
+#write a python program to add an item to the tuple ?
+
+"""t=(1,2,3,4,5,6)
+l=list(t)
+print(l)
+l.insert(6,7)
+print(l)
+t=tuple(l)
+print(t)
+
+"""
+#Write a python program to convert tuple into a string ?
+
+"""t=("siva,35,76.8,marks")
+print(type(t))
+"""
+
+#Write a python program to find most frequent element in tuple ?
+
+t=(1,2,3,4,5,5,4,3,8,3,3)
+print(t.count(5))
+
+
+
+
+
