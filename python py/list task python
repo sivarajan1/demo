@@ -1,0 +1,46 @@
+#Write a python program to merge two list?
+
+"""s1=[1,2,3,4,5]
+s2=[6,7,8,9,10]
+s1.extend(s2)
+print(s1)
+"""
+#Write a python program to delete element of given index in list ?
+
+"""l=[1,2,3,4,5,6,7,8]
+del l[2]
+print(l)"""
+
+#Write a pytho program to delete given element from the list?
+
+"""l=[1,2,3,4,5,6,7,8,9]
+l.remove(6)
+print(l)"""
+
+#Write a python programe to check if the two list are having atleast one common element?
+
+"""l1=[1,2,3,4,5,6]
+l2=[7,8,1,2,6,9]
+common_values=list(filter(lambda x:x in l2,l1))
+print(common_values)
+"""
+#Write a python program to remove  specified column from the nestedlist?
+nested_list=[
+    [1,2,3,4]
+    [5,6,7,8]
+    [9,10,11,12]
+]
+col_to_remove=2
+modified_list = "remove_column"(nested_list,col_to_remove)
+print("modifiedlist:")
+for row in modified_list:
+    print(row)
+
+# Write  a python programe to remove duplicates from the list ?
+
+l=[1,2,3,4,2,3,4,5,6,7,8,8,9]
+slist= "remove_duplicates"(l)
+print("original_list:",l)
+print("list after removing duplicates:",slist)
+
+
