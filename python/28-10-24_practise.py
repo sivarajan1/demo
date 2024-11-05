@@ -43,14 +43,8 @@ class flipcart:
     & machine learning,web browsers,operating systems
 
     real time appliction platform: e-commerce platform,hospital management,student information system
-    
-    
-    
-    
-    
-    
-    
     """
+    
         
     
 
