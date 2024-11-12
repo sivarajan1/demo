@@ -87,7 +87,35 @@ class c(p):
         super().m3()
 
 s = c()
-s.m4()        
+s.m4()
+
+l = [1,2,3,4,4,5,5,6,7,7,8]
+s = list(dict.fromkeys(l))
+print(s)
+
+l = [1,2,3,4,5,6,7,8]      
+for s in (l):
+     if s%2==0:
+        print(s)
+
+l = [1,2,3,4,5,6,7,8,89]
+even = list(filter(lambda s:s%2==0,l))
+print(even)
+
+t = (1,2,3,4,5,6,7,8)
+second = t[3]
+print(second)
+
+s = (1,2,3,4,5,6,7)
+length = len(s)
+print(length)
+
+
+
+
+
+
+
 
 
 
