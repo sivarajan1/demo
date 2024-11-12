@@ -66,7 +66,7 @@ s.m1("siva",23)
 s.m2(50000)
 s.m3("it") """
 
-class employee:
+"""class employee:
     def m1(self):
         self.name = "siva"
         self.age = 23
@@ -94,6 +94,60 @@ r1.m2("siva",23,"python")
 r2 = manager()
 r2.m3("siva",23,30)
 r3 = intern()
-r3.m4("8months")                                   
+r3.m4("8months")    """
+
+"""class vehicle:
+    def __init__(self):
+        self.brand = "tata"
+        self.model = 2015
+class car(vehicle):
+    def m1(self):
+        print(self.brand)
+        print(self.model)
+        self.num_doors = 4
+        print(self.num_doors)
+class bike(vehicle):
+    def m2(self):
+        print(self.brand)
+        print(self.model)
+        self.type = "heavy_vehicle"
+        print(self.type)
+
+r1 = car()
+r1.m1()
+r2 = bike()
+r2.m2()""" 
+
+"""class device:
+    def m1(self,name):
+        self.name = name
+        print(self.name)
+class phone(device):
+    def m2(self,phone_number):
+        self.phone_number = phone_number
+        print(self.phone_number)
+class tablet(device):
+    def m3(self,screen_size):
+        self.scree_size = screen_size
+        print(self.scree_size)
+class smart_phone(phone,tablet):
+    def m4(self,os):
+        self.os = os
+        print(self.os)
+
+k = phone()
+k.m1("oppo")
+k.m2(7337558583)
+
+r = tablet()
+r.m1("vivo")
+r.m3(6)
+
+i = smart_phone()
+i.m2(999999999999)
+i.m3(8)
+i.m4("linux_os")"""
+
+
 
 
