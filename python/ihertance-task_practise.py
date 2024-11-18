@@ -148,6 +148,26 @@ i.m2(999999999999)
 i.m3(8)
 i.m4("linux_os")"""
 
+class person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def display_info (self):
+        print(self.name)
+        print(self.age)
+
+class student(person):
+    def __init__(self,grade):
+        self.grade = grade
+    def display_info(self):
+        print(self.garde)
+
+r = person("siva",23)
+r.display_info()
+
+s = student("a++")
+s.display_info()
+
 
 
 
