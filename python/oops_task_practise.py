@@ -120,7 +120,7 @@ class currentaccount(bankaccount):
     def get_balance(self):
         return self._balance"""
 
-class Employee:
+"""class Employee:
     def __init__(self, name, salary):
         self.name = name
         self.salary = salary
@@ -152,7 +152,36 @@ class Developer(Employee):
         self.programming_language = programming_language
 
     def get_details(self):
-        return f"{super().get_details()}, Programming Language: {self.programming_language}"
+        return f"{super().get_details()}, Programming Language: {self.programming_language}"""
+
+class vehical:
+    def get_info(self,brand,year):
+        self.brand = brand
+        self.year = year
+
+class car(vehical):
+    def get_info(self, brand, year,no_of_doors):
+        self.no_of_doors = no_of_doors
+        self.brand = brand
+        self.year = year
+        print(self.brand)
+        print(self.year)
+        print(self.no_of_doors)
+
+class motorcycle(vehical):
+    def get_info(self, brand, year,has_sidecar):
+        self.has_sidecar = has_sidecar
+        self.brand = brand
+        self.year = year
+        print(self.brand)
+        print(self.year)
+        print(has_sidecar)
+
+s = car()
+s.get_info("fortuner",2024,5)
+r = motorcycle()
+r.get_info("royalenfeild",2024,"none")        
+                         
 
 
 
