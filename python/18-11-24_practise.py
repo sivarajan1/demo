@@ -34,7 +34,7 @@ r = car()
 r.set_speed(-80)
 print("car speed:",r.get_speed())"""
 
-class ATM:
+"""class ATM:
     def __init__(self,card_number,pin):
         self.__card_number = card_number
         self.__pin = pin
@@ -74,6 +74,23 @@ while True:
     elif choice == "4":
         break
     else:
-        print("invalid option.")                                         
+        print("invalid option.")"""
+
+class product:
+    def __init__(self,price):
+        self.__price = price
+    def set_price(self,price):
+        if price >= 0:
+            self.__price = price
+        else:
+            print("invalid price!")
+    def get_price(self):
+        return(self.__price)
+
+r = product(5000)
+r.set_price(6000)
+print(r.get_price())        
+
+
 
 

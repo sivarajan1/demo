@@ -38,9 +38,9 @@ print(factorial(5))"""
 #Define a function `find_max` that takes three numbers as input and returns
 #the largest of the three. Test the function with various sets of numbers.
 
-"""def find_max(a,b,c):
+def find_max(a,b,c):
     return max(a,b,c)
 
 print(find_max(10,20,30))
 print(find_max(56,97,98))
-print(find_max(34,57,43))"""
+print(find_max(34,598,43))
